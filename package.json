@@ -1,0 +1,23 @@
+{
+  "name": "beiru-cli",
+  "version": "1.0.0",
+  "description": "a web cli for web project",
+  "bin": {
+    "br": "./index.js"
+  },
+  "author": "junkai-beiru",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/kaitochen/beiru-cli/issues"
+  },
+  "homepage": "https://github.com/kaitochen/beiru-cli#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.5.3",
+    "inquirer": "^7.0.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3"
+  }
+}
