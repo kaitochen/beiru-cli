@@ -2,13 +2,20 @@
   "name": "beiru-cli",
   "version": "1.0.0",
   "description": "a web cli for web project",
+  "main": "index.js",
+  "private": false,
   "bin": {
     "br": "./index.js"
   },
   "author": "junkai-beiru",
-  "license": "MIT License",
+  "license": "MIT",
+  "keywords": ['web cli','tool','create web','br-cli'],
   "bugs": {
     "url": "https://github.com/kaitochen/beiru-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaitochen/beiru-cli.git"
   },
   "homepage": "https://github.com/kaitochen/beiru-cli#readme",
   "dependencies": {
